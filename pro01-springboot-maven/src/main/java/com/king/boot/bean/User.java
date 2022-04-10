@@ -1,52 +1,26 @@
 package com.king.boot.bean;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
 /**
  * 用户
  */
+@Data
+@ToString
+// @AllArgsConstructor //有参
+@NoArgsConstructor //无参
 public class User {
     private String name;
     private Integer age;
 
-    private  Pet pet;
-
-    public Pet getPet() {
-        return pet;
-    }
-
-    public void setPet(Pet pet) {
-        this.pet = pet;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", pet=" + pet +
-                '}';
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
+    private Pet pet;
+    //有参构造器需要定制，自己写
 
     public User(String name, Integer age) {
         this.name = name;
         this.age = age;
-    }
-
-    public User() {
     }
 }

@@ -1,0 +1,13 @@
+mycar:
+  brand: bwm
+  price: 20000
+
+#  改变默认的静态资源路径
+#spring:
+  #   静态资源的路径，四个默认的路径 ：只要静态资源放在类路径下： called /static (or /public or /resources or /META-INF/resources
+  #   下面这个修改是改变这个存放的文件的位置
+#  mvc:
+#    static-path-pattern: /res/**
+
+#  resources:
+#    static-locations: [ classpath:/IMGS/ ]

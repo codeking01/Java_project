@@ -51,7 +51,6 @@ public class MainApplication {
         System.out.println("容器的tom组件为："+tom);
         System.out.println("容器的user01："+user01);
 
-
         boolean haha = run.containsBean("haha");
         boolean hehe = run.containsBean("hehe");
         System.out.println("haha："+haha);//true
