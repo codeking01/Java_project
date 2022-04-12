@@ -38,5 +38,4 @@ public class IndexController {
         map.put("content", content);
         return map;
     }
-
 }

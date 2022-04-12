@@ -1,6 +1,7 @@
 package com.king.controller;
 
 import lombok.*;
+import org.springframework.stereotype.Repository;
 
 import java.lang.annotation.*;
 import java.lang.reflect.Field;
@@ -9,6 +10,8 @@ import java.lang.reflect.Field;
  * @author codeking
  * @date 2022/4/12 16:12
  */
+// 这个是放在持久层的注解
+@Repository
 public class ORMtest {
     @SneakyThrows
     public static void main(String[] args) {

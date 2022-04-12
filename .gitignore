@@ -9,3 +9,4 @@ outgentarget!/.gitignore/.gitignore
 /pro02-springboot2-web/.mvn/
 /pro02-springboot2-web/HELP.md
 /pro01-springboot-maven/src/test/
+/pro03-springboot2-ssmp/.gitignore
