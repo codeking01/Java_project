@@ -30,7 +30,7 @@ public class ParameterTestController {
     }
 
     @PostMapping("/save")
-    public Map<String, String> postMethod(@RequestBody(required = false) String content) {
+    public Map<String, String> postMethod(@RequestBody String content) {
         System.out.println("进来了！");
         Map<String, String> map = new HashMap<>();
         map.put("content", content);

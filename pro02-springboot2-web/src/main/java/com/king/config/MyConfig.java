@@ -1,8 +1,8 @@
-package com.king.pro02springboot2web.config;
+package com.king.config;
 
-import com.king.pro02springboot2web.bean.Car;
-import com.king.pro02springboot2web.bean.Pet;
-import com.king.pro02springboot2web.bean.User;
+import com.king.bean.Car;
+import com.king.bean.Pet;
+import com.king.bean.User;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

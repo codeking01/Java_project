@@ -1,0 +1,11 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+outgentarget!/.gitignore/.gitignore
+/pro01-springboot-maven/target/
+/pro02-springboot2-web/.mvn/
+/pro02-springboot2-web/HELP.md
+/pro01-springboot-maven/src/test/

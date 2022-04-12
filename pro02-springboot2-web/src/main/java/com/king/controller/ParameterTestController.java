@@ -1,4 +1,4 @@
-package com.king.pro02springboot2web.controller;
+package com.king.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,10 +14,10 @@ import java.util.Map;
 @RestController
 public class ParameterTestController {
 
-    @PostMapping("/save")
-    public Map postMethod(@RequestBody String content) {
-        Map<String, Object> map = new HashMap<>();
-        map.put("content", content);
-        return map;
-    }
+    // @PostMapping("/post-request")
+    // public Map<String, Object> postMethod(@RequestBody(required = true) String content) {
+    //     Map<String, Object> map = new HashMap<>();
+    //     map.put("content", content);
+    //     return map;
+    // }
 }

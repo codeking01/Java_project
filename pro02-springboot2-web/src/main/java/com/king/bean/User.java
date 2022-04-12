@@ -1,4 +1,4 @@
-package com.king.pro02springboot2web.bean;
+package com.king.bean;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

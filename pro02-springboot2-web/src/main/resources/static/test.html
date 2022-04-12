@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--需要在HTML文件中加入以下语句-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show User</title>
+</head>
+<body>
+<!--<table>-->
+<!--    姓名：<span th:text="${user.userName}"></span>-->
+<!--    年龄：<span th:text="${user.age}"></span>-->
+<!--</table>-->
+1、使用表单发送post请求：html不支持通过链接发送post请求，只能通过表单方式发送。
+<form method="POST" th:action="@{/save}">
+<!--    <input type="text" name="name" id="nameId"/>-->
+    用户名：<input type="text"  name="name" id="nameId"/>
+    <br>
+    <button type="submit" name="submit" value="value" class="button">发起普通post请求</button>
+</form>
+
+</body>
+</html>
