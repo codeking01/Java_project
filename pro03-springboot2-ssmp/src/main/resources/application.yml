@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 8080
 
 spring:
   datasource:
@@ -15,3 +15,6 @@ mybatis-plus:
     db-config:
       table-prefix: tbl_
       id-type: auto
+  # 日志的输出内容设置
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
