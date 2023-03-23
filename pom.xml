@@ -59,6 +59,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>pro01-springboot-maven</module>
+        <module>JVMandJUC</module>
     </modules>
 
     <properties>

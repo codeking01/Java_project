@@ -83,6 +83,8 @@
     </dependencies>
 
     <build>
+        <!-- 最终生产jar包的名称 -->
+        <finalName>pro02-springboot2-web</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

@@ -1,8 +1,6 @@
 package com.king.controller.utils;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * @author codeking
@@ -12,6 +10,7 @@ import lombok.NoArgsConstructor;
 public class R {
     private Boolean flag ;
     private Object data;
+    private String msg ;
 
     public R() {
     }
@@ -24,4 +23,15 @@ public class R {
         this.flag = flag;
         this.data = date;
     }
+
+    public R(Boolean flag, String msg) {
+        this.flag = flag;
+        this.msg = msg;
+    }
+
+    public R(String msg) {
+        this.flag = false;
+        this.msg = msg;
+    }
+
 }
